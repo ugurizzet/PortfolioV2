@@ -69,10 +69,12 @@
   
       box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     }
+
   
     .tag-cmp {
       flex-direction: column;
       margin-top: 3rem;
+
   
       p {
         width: 100%;
@@ -150,6 +152,23 @@
       div:nth-child(1) {
         width: 200px;
         height: 200px;
+      }
+    }
+
+    @media screen and (max-width: 500px) {
+      div:nth-child(2) {
+        width: 70px;
+        height: 70px;
+      }
+  
+      div:nth-child(3) {
+        width: 70px;
+        height: 70px;
+      }
+  
+      div:nth-child(1) {
+        width: 70px;
+        height: 70px;
       }
     }
   

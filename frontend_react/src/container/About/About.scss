@@ -1,0 +1,75 @@
+.app__about {
+    margin-right: 2rem;
+  .card {
+    margin: 2rem;
+    width: 90%;
+    background-color: #f8fbfe;
+    border-radius: 16px;
+    z-index: 1;
+
+    .tools {
+      display: flex;
+      align-items: center;
+      padding: 9px;
+
+      .circle {
+        padding: 0 4px;
+
+        .box {
+          display: inline-block;
+          align-items: center;
+          width: 10px;
+          height: 10px;
+          padding: 1px;
+          border-radius: 50%;
+        }
+
+        .red {
+          background-color: #ff605c;
+        }
+
+        .yellow {
+          background-color: #ffbd44;
+        }
+
+        .green {
+          background-color: #00ca4e;
+        }
+      }
+    }
+    .card__content {
+      display: flex;
+      flex-direction: column;
+      .about__content {
+        display: flex;
+
+        .img{
+            flex: 1;
+            flex-direction: column;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+
+            @media screen and (max-width: 1200px){
+                display: none;
+
+            }
+        }
+        .content{
+            flex:2;
+            margin: 2rem;
+            h1{
+                margin-bottom: 2rem;
+                flex-direction: column;
+                align-items: center;
+                display: flex;
+            }
+            p{
+                letter-spacing: 3px;
+
+            }
+        }
+      }
+    }
+  }
+}

@@ -1,10 +1,15 @@
 import React from 'react'
 import './Work.scss'
+import { motion } from 'framer-motion'
 
 const Work = () => {
   return (
     <div>
-      Work
+      <motion.div
+      
+      >
+        
+      </motion.div>
     </div>
   )
 }
